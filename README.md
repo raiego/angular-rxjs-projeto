@@ -1,27 +1,97 @@
-# Buscante
+Angular RxJS Projeto
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+Projeto em Angular com uso de RxJS para demonstrar/treinar reatividade, exemplos de streams, observables e manipulação de dados de forma reativa no frontend.
 
-## Development server
+🧠 Sobre o projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Esse repositório contém um projeto em Angular que utiliza RxJS para gerenciar estados, assinaturas e fluxos de dados reativos. A ideia é servir como ambiente de estudo/prática de programação reativa com Angular + RxJS, aplicando conceitos como Observables, operadores, subscription/unsubscription e arquitetura reativa.
 
-## Code scaffolding
+✅ Funcionalidades / O que o projeto permite
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Uso de Angular com estrutura padrão (componentes, módulos, serviços).
 
-## Build
+Exemplos de uso de RxJS — Observables, operadores, assincronia, streams de dados.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Estrutura básica de build / run via Angular CLI.
 
-## Running unit tests
+Organização de código em TypeScript, HTML e CSS conforme padrão Angular.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Se houver funcionalidades específicas (ex: login, CRUD, formulários, consumo de API, etc.), adicione aqui.
 
-## Running end-to-end tests
+💻 Tecnologias e Dependências
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Angular (versão usada no projeto)
 
-## Further help
+RxJS
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+TypeScript
+
+HTML / CSS
+
+Dependências detalhadas estão no package.json.
+
+🚀 Como rodar o projeto localmente
+# Clone o repositório
+git clone https://github.com/raiego/angular-rxjs-projeto.git
+
+# Entre na pasta do projeto
+cd angular-rxjs-projeto
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+ng serve
+
+
+Depois de rodar ng serve, abra no navegador:
+
+➡️ http://localhost:4200/
+
+🛠️ Scripts úteis
+
+ng serve — inicia o servidor de desenvolvimento
+
+ng build — build para produção
+
+ng test — executar testes unitários (se configurados)
+
+ng generate ... — gerar componentes, serviços, pipes, etc
+
+📂 Estrutura do projeto (exemplo simplificado)
+/src
+  /app
+    /components
+    /services
+    /models
+  index.html
+  main.ts
+  styles.css
+  ...
+package.json
+angular.json
+README.md
+
+
+(adapte conforme a estrutura real do seu projeto)
+
+🔮 Possíveis melhorias / Roadmap
+
+Incluir exemplos mais complexos com RxJS (subjects, multicaste, state management)
+
+Criar formulários reativos com Angular + RxJS
+
+Integrar com backend (API REST) para demonstrar consumo assíncrono + reatividade
+
+Adicionar testes unitários e e2e
+
+Melhorar estilo, layout e responsividade
+
+🤝 Contribuições
+
+Contribuições são bem-vindas!
+Se quiser contribuir, abra uma issue ou envie um pull request.
+
+📄 Licença
+
+Esse projeto está sob a licença MIT — sinta-se à vontade para usar e modificar conforme desejar.
