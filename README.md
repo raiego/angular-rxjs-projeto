@@ -1,64 +1,75 @@
-Angular RxJS Projeto
+Focus: Angular + Reactive Programming (RxJS)
 
-Projeto em Angular com uso de RxJS para demonstrar/treinar reatividade, exemplos de streams, observables e manipulação de dados de forma reativa no frontend.
+# Angular RxJS Project
 
-🧠 Sobre o projeto
+Angular project using **RxJS** to demonstrate and practice reactive programming concepts, including streams, observables, and reactive data handling in the frontend.
 
-Esse repositório contém um projeto em Angular que utiliza RxJS para gerenciar estados, assinaturas e fluxos de dados reativos. A ideia é servir como ambiente de estudo/prática de programação reativa com Angular + RxJS, aplicando conceitos como Observables, operadores, subscription/unsubscription e arquitetura reativa.
+---
 
-✅ Funcionalidades / O que o projeto permite
+## 🧠 About the Project
 
-Uso de Angular com estrutura padrão (componentes, módulos, serviços).
+This repository contains an Angular project that uses **RxJS** to manage state, subscriptions, and reactive data flows.
 
-Exemplos de uso de RxJS — Observables, operadores, assincronia, streams de dados.
+The goal is to provide a practical environment to study and experiment with **reactive programming using Angular + RxJS**, applying concepts such as:
 
-Estrutura básica de build / run via Angular CLI.
+- Observables
+- RxJS operators
+- Subscription / unsubscription
+- Asynchronous data streams
+- Reactive architecture patterns
 
-Organização de código em TypeScript, HTML e CSS conforme padrão Angular.
+---
 
-Se houver funcionalidades específicas (ex: login, CRUD, formulários, consumo de API, etc.), adicione aqui.
+## ✅ Features / What the Project Demonstrates
 
-💻 Tecnologias e Dependências
+- Angular standard structure (components, modules, services)
+- Examples of RxJS usage — Observables, operators, async streams
+- Project build and execution via **Angular CLI**
+- Code organization using **TypeScript, HTML, and CSS** following Angular best practices
 
-Angular (versão usada no projeto)
+If additional features exist (such as login, CRUD operations, forms, API consumption, etc.), they can be documented here.
 
-RxJS
+---
 
-TypeScript
+## 💻 Technologies & Dependencies
 
-HTML / CSS
+- Angular
+- RxJS
+- TypeScript
+- HTML / CSS
 
-Dependências detalhadas estão no package.json.
+Detailed dependencies can be found in the **package.json** file.
 
-🚀 Como rodar o projeto localmente
-# Clone o repositório
+---
+
+## 🚀 Running the Project Locally
+
+### Clone the repository
+
+```
 git clone https://github.com/raiego/angular-rxjs-projeto.git
-
-# Entre na pasta do projeto
+Navigate to the project folder
 cd angular-rxjs-projeto
-
-# Instale as dependências
+Install dependencies
 npm install
-
-# Inicie o servidor de desenvolvimento
+Start the development server
 ng serve
-
-
-Depois de rodar ng serve, abra no navegador:
+```
+After running ng serve, open your browser and go to:
 
 ➡️ http://localhost:4200/
 
-🛠️ Scripts úteis
+🛠️ Useful Scripts
 
-ng serve — inicia o servidor de desenvolvimento
+ng serve — start the development server
 
-ng build — build para produção
+ng build — build the project for production
 
-ng test — executar testes unitários (se configurados)
+ng test — run unit tests (if configured)
 
-ng generate ... — gerar componentes, serviços, pipes, etc
+ng generate ... — generate components, services, pipes, etc.
 
-📂 Estrutura do projeto (exemplo simplificado)
+📂 Project Structure (simplified)
 /src
   /app
     /components
@@ -72,26 +83,26 @@ package.json
 angular.json
 README.md
 
+(Adapt according to the actual project structure.)
 
-(adapte conforme a estrutura real do seu projeto)
+🔮 Possible Improvements / Roadmap
 
-🔮 Possíveis melhorias / Roadmap
+Add more complex RxJS examples (Subjects, multicasting, reactive state management)
 
-Incluir exemplos mais complexos com RxJS (subjects, multicaste, state management)
+Implement reactive forms with Angular + RxJS
 
-Criar formulários reativos com Angular + RxJS
+Integrate with a backend (REST API) to demonstrate asynchronous data flows
 
-Integrar com backend (API REST) para demonstrar consumo assíncrono + reatividade
+Add unit tests and end-to-end tests
 
-Adicionar testes unitários e e2e
+Improve styling, layout, and responsiveness
 
-Melhorar estilo, layout e responsividade
+🤝 Contributions
 
-🤝 Contribuições
+Contributions are welcome!
 
-Contribuições são bem-vindas!
-Se quiser contribuir, abra uma issue ou envie um pull request.
+Feel free to open an issue or submit a pull request if you'd like to improve the project.
 
-📄 Licença
+📄 License
 
-Esse projeto está sob a licença MIT — sinta-se à vontade para usar e modificar conforme desejar.
+This project is licensed under the MIT License — feel free to use and modify it.
